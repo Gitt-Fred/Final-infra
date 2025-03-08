@@ -7,7 +7,7 @@ terraform {
   }
   
    backend "s3" {
-     bucket         = "dakar-terraform" # REPLACE WITH YOUR BUCKET NAME
+     bucket         = "drukhari-terraform" # REPLACE WITH YOUR BUCKET NAME
      key            = "terraform_modules/terraform.tfstate"
      region         = "ap-south-1"
    }

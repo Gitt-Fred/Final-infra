@@ -11,3 +11,5 @@ Prerequisites:
 4. Connect your kubectl CLI to your EKS cluster.
     * When the "terraform apply" is completed, an output of "cluster_connect" will be printed. This is a command which you should execute to configure kubectl to work with the new cluster.
 Note: You can always list all outputs by running the command "terraform output".
+5. Note this terraform repo is supposed to be ran from a smaller weak instance with infera raising permissions. I will not share the specific permissions per security reasons.
+A recommended solution that I've also preformed is utilizing cloudwatch to see where execution and apply permissons via IAMROLE through trial and error.
